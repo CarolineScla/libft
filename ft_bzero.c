@@ -6,11 +6,13 @@
 /*   By: csclavon <csclavon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 11:12:35 by csclavon          #+#    #+#             */
-/*   Updated: 2024/04/22 11:12:43 by csclavon         ###   ########.fr       */
+/*   Updated: 2024/04/22 16:23:29 by csclavon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void bzero(void *s, size_t n)
+#include "libft.h"
+
+void ft_bzero(void *s, size_t n)
 {
 	
 }

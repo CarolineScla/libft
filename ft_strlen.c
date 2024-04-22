@@ -6,13 +6,15 @@
 /*   By: csclavon <csclavon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 09:27:05 by csclavon          #+#    #+#             */
-/*   Updated: 2024/04/22 09:44:53 by csclavon         ###   ########.fr       */
+/*   Updated: 2024/04/22 15:51:49 by csclavon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(const char *s)
+#include "libft.h"
+
+size_t	ft_strlen(const char *s)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
 	while (s[i] != '\0')
