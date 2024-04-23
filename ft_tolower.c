@@ -6,13 +6,15 @@
 /*   By: csclavon <csclavon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 17:04:55 by csclavon          #+#    #+#             */
-/*   Updated: 2024/04/22 17:05:12 by csclavon         ###   ########.fr       */
+/*   Updated: 2024/04/23 16:53:55 by csclavon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_tolower(int c)
+int	ft_tolower(int c)
 {
-	
+	if (c >= 65 && c <= 90)
+		c = c + 32;
+	return (c);
 }

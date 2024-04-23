@@ -6,13 +6,17 @@
 /*   By: csclavon <csclavon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 17:04:00 by csclavon          #+#    #+#             */
-/*   Updated: 2024/04/22 17:05:42 by csclavon         ###   ########.fr       */
+/*   Updated: 2024/04/23 16:53:30 by csclavon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_toupper(int c)
+int	ft_toupper(int c)
 {
-	
+	if (c >= 97 && c <= 122)
+	{
+		c = c - 32;
+	}
+	return (c);
 }
