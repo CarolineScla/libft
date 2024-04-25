@@ -6,7 +6,7 @@
 /*   By: csclavon <csclavon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 11:12:35 by csclavon          #+#    #+#             */
-/*   Updated: 2024/04/22 16:23:29 by csclavon         ###   ########.fr       */
+/*   Updated: 2024/04/25 17:30:50 by csclavon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 void ft_bzero(void *s, size_t n)
 {
-	
+	memset((void *) s, 0, (size_t) ft_strlen);
 }
