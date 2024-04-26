@@ -6,11 +6,12 @@
 /*   By: csclavon <csclavon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 15:45:16 by csclavon          #+#    #+#             */
-/*   Updated: 2024/04/23 17:14:01 by csclavon         ###   ########.fr       */
+/*   Updated: 2024/04/26 18:22:35 by csclavon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
+
 # define LIBFT_H
 
 # include <string.h>
@@ -29,18 +30,18 @@ void	*ft_memcpy(void *dest, const void *src, size_t n);
 int	ft_toupper(int c);
 int	ft_tolower(int c);
 int	ft_atoi(const char *nptr);
+void	ft_bzero(void *s, size_t n);
 
 //A faire
-void	ft_bzero(void *s, size_t n);
 void	*ft_memset(void *s, int c, size_t n);
-void	*ft_memmove(void *dest, const void *src, size_t n);
-size_t	ft_strlcpy(char *dst, const char *src, size_t size);
-size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
-char	*ft_strchr(const char *s, int c);
-char	*ft_strrchr(const char *s, int c);
-void	*ft_memchr(const void *s, int c, size_t n);
-int	ft_memcmp(const void *s1, const void *s2, size_t n);
-char	*ft_strnstr(const char *big, const char *little, size_t len);
+//void	*ft_memmove(void *dest, const void *src, size_t n);
+//size_t	ft_strlcpy(char *dst, const char *src, size_t size);
+size_t	ft_strlcat(char *dst, const char *src, size_t size);
+//char	*ft_strchr(const char *s, int c);
+//char	*ft_strrchr(const char *s, int c);
+//void	*ft_memchr(const void *s, int c, size_t n);
+//int	ft_memcmp(const void *s1, const void *s2, size_t n);
+//char	*ft_strnstr(const char *big, const char *little, size_t len);
 
 // Partie supplementaire 
 // char	*ft_substr(char const *s, unsigned int start, size_t len);
