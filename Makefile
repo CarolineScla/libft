@@ -6,7 +6,7 @@
 #    By: csclavon <csclavon@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/26 18:06:07 by csclavon          #+#    #+#              #
-#    Updated: 2024/04/26 18:16:13 by csclavon         ###   ########.fr        #
+#    Updated: 2024/04/29 17:38:40 by csclavon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,6 +25,7 @@ FILE =  ft_atoi.c \
 		ft_strncmp.c \
 		ft_tolower.c \
 		ft_toupper.c \
+		ft_memmove.c \
 
 CC = gcc
 
