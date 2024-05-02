@@ -6,7 +6,7 @@
 #    By: csclavon <csclavon@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/26 18:06:07 by csclavon          #+#    #+#              #
-#    Updated: 2024/05/02 15:19:58 by csclavon         ###   ########.fr        #
+#    Updated: 2024/05/02 17:17:01 by csclavon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,10 +28,14 @@ FILE =  ft_atoi.c \
 		ft_memmove.c \
 		ft_memcmp.c \
 		ft_memchr.c \
+		ft_memcpy.c \
 		ft_strnstr.c \
 		ft_strrchr.c \
+		ft_strchr.c \
 		ft_strlcpy.c \
-		
+		ft_calloc.c \
+		ft_strdup.c \
+
 CC = gcc
 
 CFLAGS = -Wall -Wextra -Werror -I.

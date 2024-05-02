@@ -1,26 +1,40 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: csclavon <csclavon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/04/22 16:58:40 by csclavon          #+#    #+#             */
-/*   Updated: 2024/05/02 16:48:15 by csclavon         ###   ########.fr       */
+/*   Created: 2024/05/02 15:49:24 by csclavon          #+#    #+#             */
+/*   Updated: 2024/05/02 17:25:18 by csclavon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memcpy(void *dest, const void *src, size_t n)
+#include <stdlib.h> // Add the missing include directive for the malloc function
+
+char	*ft_strcpy(char *dest, const char *src)
 {
-	size_t	i;
+	int	i;
 
 	i = 0;
-	while (i < n)
+	while (src[i] != '\0')
 	{
-		((char *)dest)[i] = ((char *)src)[i];
+		dest[i] = src[i];
 		i++;
 	}
+	dest[i] = '\0';
 	return (dest);
+}
+
+char	*ft_strdup(const char *s)
+{
+	char	*d;
+
+	d = malloc(ft_strlen(s) + 1);
+	if (d == 0)
+		return (NULL);
+	ft_strcpy(d, s);
+	return (d);
 }
