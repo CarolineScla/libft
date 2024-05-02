@@ -6,7 +6,7 @@
 /*   By: csclavon <csclavon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 17:29:42 by csclavon          #+#    #+#             */
-/*   Updated: 2024/04/30 18:53:41 by csclavon         ###   ########.fr       */
+/*   Updated: 2024/05/02 12:18:32 by csclavon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,19 +21,19 @@ int	ft_atoi(const char *nptr)
 	result = 0;
 	sign = 1;
 	i = 0;
-	while (nptr[i] == ' ' || nptr[i] == '+' || (nptr[i] >= '\a' && nptr[i] <= '\r'))
+	while (nptr[i] == ' ' || nptr[i] == '+'
+		|| (nptr[i] >= '\t' && nptr[i] <= '\r')
+		|| nptr[i] == 32)
 		i++;
 	if (nptr[i] == '-')
 	{
 		sign *= -1;
 		i++;
 	}
-	while (!nptr[i])
+	while (nptr[i])
 	{
-		if (nptr[i] >= '0' && nptr[i] <= '9')
+		if (ft_isdigit(*nptr))
 			result = result * 10 + nptr[i] - '0';
-		else
-			break;
 		i++;
 	}
 	return (sign * result);
