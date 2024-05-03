@@ -6,7 +6,7 @@
 #    By: csclavon <csclavon@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/26 18:06:07 by csclavon          #+#    #+#              #
-#    Updated: 2024/05/03 09:12:02 by csclavon         ###   ########.fr        #
+#    Updated: 2024/05/03 13:47:20 by csclavon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,15 +39,14 @@ FILE =  ft_atoi.c \
 		ft_putchar_fd.c \
 		ft_putendl_fd.c \
 		ft_putnbr_fd.c \
+		ft_substr.c \
+		ft_strjoin.c \
 
 # ft_strmapi   
-# ft_substr    
-# ft_strjoin   
 # ft_strtrim   
 # ft_split     
 # ft_itoa      
 # ft_striteri  
-# ft_putnbr_fd
 
 CC = gcc
 

@@ -6,7 +6,7 @@
 /*   By: csclavon <csclavon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 15:45:16 by csclavon          #+#    #+#             */
-/*   Updated: 2024/05/03 09:11:51 by csclavon         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:46:51 by csclavon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,8 +47,8 @@ void	*ft_calloc(size_t nmemb, size_t size);
 char	*ft_strdup(const char *s);
 
 // Partie supplementaire 
-// char	*ft_substr(char const *s, unsigned int start, size_t len);
-// char	*ft_strjoin(char const *s1, char const *s2);
+char	*ft_substr(char const *s, unsigned int start, size_t len);
+char	*ft_strjoin(char const *s1, char const *s2);
 // char	*ft_strtrim(char const *s1, char const *set);
 // char	**ft_split(char const *s, char c);
 // char*	itoa(int num, char* tampon, int base);
