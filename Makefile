@@ -6,7 +6,7 @@
 #    By: csclavon <csclavon@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/26 18:06:07 by csclavon          #+#    #+#              #
-#    Updated: 2024/05/03 13:47:20 by csclavon         ###   ########.fr        #
+#    Updated: 2024/05/04 11:21:34 by csclavon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -41,10 +41,10 @@ FILE =  ft_atoi.c \
 		ft_putnbr_fd.c \
 		ft_substr.c \
 		ft_strjoin.c \
+		ft_split.c \
 
 # ft_strmapi   
-# ft_strtrim   
-# ft_split     
+# ft_strtrim        
 # ft_itoa      
 # ft_striteri  
 
