@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: csclavon <csclavon@student.42.fr>          +#+  +:+       +#+         #
+#    By: csclavon <csclavon@student.42nice.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/26 18:06:07 by csclavon          #+#    #+#              #
-#    Updated: 2024/05/07 18:54:19 by csclavon         ###   ########.fr        #
+#    Updated: 2024/05/08 16:05:10 by csclavon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,9 +45,7 @@ FILE =  ft_atoi.c \
 		ft_strtrim.c \
 		ft_striteri.c \
 		ft_itoa.c \
-
-# ft_strmapi   
-
+		ft_strmapi.c \
 
 CC = gcc
 

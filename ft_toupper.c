@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: csclavon <csclavon@student.42.fr>          +#+  +:+       +#+        */
+/*   By: csclavon <csclavon@student.42nice.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 17:04:00 by csclavon          #+#    #+#             */
-/*   Updated: 2024/04/23 16:53:30 by csclavon         ###   ########.fr       */
+/*   Updated: 2024/05/13 11:45:02 by csclavon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,6 @@
 int	ft_toupper(int c)
 {
 	if (c >= 97 && c <= 122)
-	{
 		c = c - 32;
-	}
 	return (c);
 }

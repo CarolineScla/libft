@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: csclavon <csclavon@student.42.fr>          +#+  +:+       +#+        */
+/*   By: csclavon <csclavon@student.42nice.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 15:45:16 by csclavon          #+#    #+#             */
-/*   Updated: 2024/05/07 16:08:35 by csclavon         ###   ########.fr       */
+/*   Updated: 2024/05/13 11:47:16 by csclavon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,6 @@
 # include <string.h>
 # include <stdlib.h>
 # include <unistd.h>
-# include <stddef.h>
-# include <ctype.h>
 
 int		ft_isalnum(int c);
 int		ft_isalpha(int c);
@@ -49,8 +47,8 @@ char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(char const *s1, char const *set);
 char	**ft_split(char const *s, char c);
-char*	itoa(int num, char* tampon, int base);
-// char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
+char	*ft_itoa(int n);
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void	ft_striteri(char *s, void (*f)(unsigned int, char*));
 void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
